@@ -36,6 +36,15 @@ h6 {
     font-weight: 700;
 }
 
+.mission {
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
 #background-pic {
     background: url("../img/cover-photo.png");
     background-size: cover;
@@ -45,6 +54,7 @@ h6 {
     margin: 0;
     background-repeat: no-repeat;
 }
+
 
 hr.star-light,
 hr.star-primary, hr.star-contact {
@@ -106,6 +116,7 @@ header .container {
 }
 
 header img {
+    padding-top: 300px;
     display: block;
     margin: 0 auto 20px;
 }
