@@ -36,6 +36,16 @@ h6 {
     font-weight: 700;
 }
 
+#background-pic {
+    background: url("../img/cover-photo.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
 hr.star-light,
 hr.star-primary, hr.star-contact {
     margin: 25px auto 30px;
