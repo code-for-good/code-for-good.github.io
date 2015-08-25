@@ -16,22 +16,6 @@ html * {
 
 /* --------------------------------
 
-Modules - reusable parts of our design
-
--------------------------------- */
-/*.cd-container {
-  width: 90%;
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.cd-container::after {
-  content: '';
-  display: table;
-  clear: both;
-}*/
-
-/* --------------------------------
-
 Main components
 
 -------------------------------- */
@@ -80,7 +64,7 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-block {
-    margin: 4em 0;
+    margin: 2em 0;
   }
   .cd-timeline-block:first-child {
     margin-top: 0;
@@ -264,9 +248,10 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
-    margin-left: 0;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 1.6em;
-    width: 45%;
+    width: 43%;
   }
   .cd-timeline-content::before {
     top: 24px;
