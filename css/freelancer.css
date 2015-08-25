@@ -13,7 +13,8 @@ p {
 }
 
 .col-lg-8 p {
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 1.5em;
 }
 
 p.small {
@@ -40,6 +41,7 @@ h6 {
     font-weight: 700;
 }
 
+
 .mission {
   display: block;
   font-size: 1.5em;
@@ -59,9 +61,8 @@ h6 {
     background-repeat: no-repeat;
 }
 
-
 hr.bracket-light,
-hr.bracket-primary, hr.bracket-contact {
+hr.bracket-timeline, hr.bracket-contact {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -71,7 +72,7 @@ hr.bracket-primary, hr.bracket-contact {
 }
 
 hr.bracket-light:after,
-hr.bracket-primary:after,
+hr.bracket-timeline:after,
 hr.bracket-contact:after {
     content: "\f121";
     display: inline-block;
@@ -86,6 +87,10 @@ hr.bracket-light {
     border-color: #9DC8EC;
 }
 
+hr.bracket-timeline {
+    border-color: #fff;
+}
+
 hr.bracket-light:after {
   color: #9DC8EC;
   background-color: #ffffff;
@@ -93,6 +98,11 @@ hr.bracket-light:after {
 
 hr.bracket-contact:after{
   background-color: #fff;
+}
+
+hr.bracket-timeline:after {
+  color: #fff;
+  background-color: #9DC8EC;
 }
 
 .img-centered {
@@ -144,53 +154,6 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 10px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
-.navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
-
-.navbar a:focus {
-    outline: 0;
-}
-
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-}
-
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
-.navbar-default,
-.navbar-inverse {
-    border: 0;
-}
-
 section {
     padding: 100px 0;
 }
@@ -204,7 +167,9 @@ section h2 {
 section.success {
   color: #336FA2;
   background: #fff;
-  height: 700px;
+  height: 500px;
+  padding-top: 40px;
+  padding-bottom:50px;
 
 }
 
@@ -225,6 +190,11 @@ section.success a.active {
     section.first {
         padding-top: 75px;
     }
+}
+
+.curriculum {
+  color: #fff;
+  background-color:#9DC8EC;
 }
 
 #cd-timeline {
