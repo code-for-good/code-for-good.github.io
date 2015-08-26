@@ -199,6 +199,13 @@ section.success a.active {
   padding: 5px;
 }
 
+.timeline-cover {
+  background-color:#9DC8EC;
+  width: 400px;
+  margin: auto;
+  padding: 5px;
+}
+
 #cd-timeline {
   background-color: #9DC8EC;
 }
