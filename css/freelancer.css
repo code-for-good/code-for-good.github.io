@@ -194,6 +194,9 @@ section.success a.active {
 .curriculum {
   color: #fff;
   background-color:#9DC8EC
+  width: 400px;
+  margin: auto;
+  padding: 5px;
 }
 
 #cd-timeline {
